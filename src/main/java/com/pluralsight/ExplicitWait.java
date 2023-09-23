@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ExplicitWait_09 {
+public class ExplicitWait {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,7 +33,7 @@ public class ExplicitWait_09 {
 		 WebElement imageLink = imageElement.findElements(By.tagName("img")).get(0);
 		 imageLink.click();
 		 
-		 driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
+	//	 driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
 		 
 		driver.close();
 		

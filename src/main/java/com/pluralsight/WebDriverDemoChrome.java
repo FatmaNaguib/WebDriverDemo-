@@ -3,7 +3,7 @@ package com.pluralsight;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDriverDemoChrome_02 {
+public class WebDriverDemoChrome {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();

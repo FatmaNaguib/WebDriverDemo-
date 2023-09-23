@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CheckBoxTest_06 {
+public class CheckBoxTest {
 
 	public static void main(String[] args) {
 			

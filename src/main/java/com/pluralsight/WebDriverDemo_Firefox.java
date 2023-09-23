@@ -3,7 +3,7 @@ package com.pluralsight;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class WebDriverDemo_Firefox_01 {
+public class WebDriverDemo_Firefox {
 
 	public static void main(String[] args) {
 		

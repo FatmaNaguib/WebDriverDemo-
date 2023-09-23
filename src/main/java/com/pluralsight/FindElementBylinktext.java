@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FindElementBylinktext_04 {
+public class FindElementBylinktext {
 
 	public static void main(String[] args) {
 	
@@ -29,7 +29,7 @@ public class FindElementBylinktext_04 {
 		 WebElement imageLink = imageElement.findElements(By.tagName("img")).get(0);
 		 imageLink.click();
 		 
-		 driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
+		// driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
 		 
 		driver.close();
 	}

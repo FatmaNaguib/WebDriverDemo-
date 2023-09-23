@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FindElementByID_03 {
+public class FindElementByID {
 
 	public static void main(String[] args) {
 		

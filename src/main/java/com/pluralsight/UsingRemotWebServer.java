@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;
 
-public class UsingRemotWebServer_10 {
+public class UsingRemotWebServer {
 
 	public static void main(String[] args) throws Exception {
 	//	WebDriver driver = new ChromeDriver();
