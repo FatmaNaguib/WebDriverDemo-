@@ -14,9 +14,9 @@ public class FindElementBylinktext {
 	
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
-		WebElement SearchField = driver.findElement(By.id("APjFqb"));
-		SearchField.sendKeys("pluralsight");
-		SearchField.submit();
+		WebElement searchField = driver.findElement(By.id("APjFqb"));
+		searchField.sendKeys("pluralsight");
+		searchField.submit();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -29,7 +29,6 @@ public class FindElementBylinktext {
 		 WebElement imageLink = imageElement.findElements(By.tagName("img")).get(0);
 		 imageLink.click();
 		 
-		// driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
 		 
 		driver.close();
 	}

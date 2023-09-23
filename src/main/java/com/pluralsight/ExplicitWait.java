@@ -11,12 +11,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ExplicitWait {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
-		WebElement SearchField = driver.findElement(By.id("APjFqb"));
-		SearchField.sendKeys("pluralsight");
-		SearchField.submit();
+		WebElement searchField = driver.findElement(By.id("APjFqb"));
+		searchField.sendKeys("pluralsight");
+		searchField.submit();
 		
 	
 		
