@@ -16,8 +16,7 @@ public class FindElementByID {
 		searchField.sendKeys("pluralsight");
 		searchField.submit();
 		
-	//	WebElement imagesLink = driver.findElements(By.linkText("Images")).get(0);
-	//	imagesLink.click();
+	
 		
 	
 	}

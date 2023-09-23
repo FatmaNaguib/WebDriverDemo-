@@ -9,8 +9,7 @@ import java.net.URL;
 public class UsingRemotWebServer {
 
 	public static void main(String[] args) throws Exception {
-	//	WebDriver driver = new ChromeDriver();
-		// to run the standalone server:  java -jar selenium-server-4.12.1.jar standalone.
+	
 		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
 				DesiredCapabilities.chrome());
 		driver.get("https://www.pluralsight.com/");

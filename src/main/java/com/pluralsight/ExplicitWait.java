@@ -18,7 +18,7 @@ public class ExplicitWait {
 		SearchField.sendKeys("pluralsight");
 		SearchField.submit();
 		
-	//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("صور")));
@@ -26,14 +26,13 @@ public class ExplicitWait {
 		WebElement imagesLink = driver. findElements(By.linkText("صور")).get(0);
 		imagesLink.click();
 		
-		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	
 
 		
 		WebElement imageElement = driver.findElements(By.cssSelector(".nfEiy")).get(0);
 		 WebElement imageLink = imageElement.findElements(By.tagName("img")).get(0);
 		 imageLink.click();
 		 
-	//	 driver.getPageSource().contains("Pluralsight Skills - Apps on Google Play");
 		 
 		driver.close();
 		
